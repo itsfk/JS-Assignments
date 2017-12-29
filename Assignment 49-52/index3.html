@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <div id="wrapper">
+                <table align='center' cellspacing=2 cellpadding=5 id="data_table" border=1>
+                    <tr>
+                        <th>Name</th>
+                        <th>Country</th>
+                        <th>Age</th>
+                    </tr>
+    
+                    <tr id="row1">
+                        <td id="name_row1">Faiz</td>
+                        <td id="country_row1">Pakistan</td>
+                        <td id="age_row1">22</td>
+                        <td>
+                            <input type="button" value="Delete" class="delete" onclick="delete_row('1')">
+                            <input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+                        </td>
+                    </tr>
+    
+                    <tr id="row2">
+                        <td id="name_row2">Shawn</td>
+                        <td id="country_row2">Canada</td>
+                        <td id="age_row2">26</td>
+                        <td>
+                            <input type="button" value="Delete" class="delete" onclick="delete_row('2')">
+                            <input type="button" id="edit_button2" value="Edit" class="edit" onclick="edit_row('2')">
+                        </td>
+                    </tr>
+    
+                    <tr id="row3">
+                        <td id="name_row3">Rahul</td>
+                        <td id="country_row3">India</td>
+                        <td id="age_row3">19</td>
+                        <td>
+                            <input type="button" value="Delete" class="delete" onclick="delete_row('3')">
+                            <input type="button" id="edit_button3" value="Edit" class="edit" onclick="edit_row('3')">
+                        </td>
+                    </tr>
+                    <tr id="row4">
+                        <td id="name_row3">Rohail</td>
+                        <td id="country_row3">Pakistan</td>
+                        <td id="age_row3">24</td>
+                        <td>
+                            <input type="button" value="Delete" class="delete" onclick="delete_row('4')">
+                            <input type="button" id="edit_button4" value="Edit" class="edit" onclick="edit_row('4')">
+                        </td>
+                    </tr>
+                    <tr id="row5">
+                        <td id="name_row3">Muzna</td>
+                        <td id="country_row3">India</td>
+                        <td id="age_row3">19</td>
+                        <td>
+                            <input type="button" value="Delete" class="delete" onclick="delete_row('5')">
+                            <input type="button" id="edit_button5" value="Edit" class="edit" onclick="edit_row('5')">
+                        </td>
+                    </tr>
+                    <tr id="row6">
+                        <td id="name_row3">John</td>
+                        <td id="country_row3">USA</td>
+                        <td id="age_row3">10</td>
+                        <td>
+                            <input type="button" value="Delete" class="delete" onclick="delete_row('6')">
+                            <input type="button" id="edit_button6" value="Edit" class="edit" onclick="edit_row('6')">
+                        </td>
+                    </tr>
+                    <tr id="row7">
+                        <td id="name_row3">Bill</td>
+                        <td id="country_row3">UK</td>
+                        <td id="age_row3">58</td>
+                        <td>
+                            <input type="button" value="Delete" class="delete" onclick="delete_row('7')">
+                            <input type="button" id="edit_button7" value="Edit" class="edit" onclick="edit_row('7')">
+                        </td>
+                    </tr>
+                    <tr id="row8">
+                        <td id="name_row3">Gayle</td>
+                        <td id="country_row3">West Indies</td>
+                        <td id="age_row3">38</td>
+                        <td>
+                            <input type="button" value="Delete" class="delete" onclick="delete_row('8')">
+                            <input type="button" id="edit_button8" value="Edit" class="edit" onclick="edit_row('8')">
+                        </td>
+                    </tr>
+                    <tr id="row9">
+                        <td id="name_row3">Mitchell</td>
+                        <td id="country_row3">Australia</td>
+                        <td id="age_row3">40</td>
+                        <td>
+                            <input type="button" value="Delete" class="delete" onclick="delete_row('9')">
+                            <input type="button" id="edit_button9" value="Edit" class="edit" onclick="edit_row('9')">
+                        </td>
+                    </tr>
+                    <tr id="row10">
+                        <td id="name_row3">Phill</td>
+                        <td id="country_row3">SA</td>
+                        <td id="age_row3">5</td>
+                        <td>
+                            <input type="button" value="Delete" class="delete" onclick="delete_row('10')">
+                            <input type="button" id="edit_button10" value="Edit" class="edit" onclick="edit_row('10')">
+                        </td>
+                    </tr>
+    
+    
+    
+    
+                    <!-- <tr>
+                    <td><input type="text" id="new_name"></td>
+                    <td><input type="text" id="new_country"></td>
+                    <td><input type="text" id="new_age"></td>
+                    <td><input type="button" class="add" onclick="add_row();" value="Add Row"></td>
+                    </tr>
+                     -->
+                </table>
+            </div>
+            <div id = "theform" style="display:none">
+                    <form name = "myform">
+                            <label>Name</label> <br>   
+                        <p><input type="text"></p>
+                        <label>Age</label> <br>
+                        <p><input type="text"></p>
+                        <label>Country</label> <br>
+                        <p><input type="text"></p>
+                        <!-- <textarea cols="50" rows="10"></textarea><br /> -->
+                            <input type="submit" value="Submitt" />
+                    </form>
+                    </div>
+<script src="app.js"></script>    
+</body>
+</html>
