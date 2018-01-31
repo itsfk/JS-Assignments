@@ -41,3 +41,19 @@ function edit_row(no)
 function showForm() {
   document.getElementById("theform").style.display = "block";
   }
+  function myFun(){
+ document.getElementById("a").innerHTML="Hello World"
+
+  }
+function expand1(){
+  document.getElementById("a").innerHTML="Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer"
+}
+function expandLoris() {
+  
+   var para = document.getElementById("slowLoris");
+   para.innerHTML= "<span style='background-color:lightpink;'>Hello World</span>";
+   
+}
+function alpha(){
+  document.getElementById("abc").style.fontSize="2em"
+}
